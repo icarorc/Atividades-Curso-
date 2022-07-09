@@ -1,0 +1,13 @@
+Aristotoles 1º ou 2º - Quimica 
+Socrates    2º ou 3º - Fisica
+Platão      1º ou 2º - Matematica
+Aristotoles 2º ou 3º - Matematica 
+Platão      1º ou 2º - Fisica 
+
+R: Por meio de exclusão dos classificados 
+
+Quimica:1º Socrates 2º Aristotoles 3º Platão 
+
+Fisica:1º Aristotoles 2º Platão 3º Socrates
+
+Matematica:1º Platão 2º Socrates 3º Aristotoles 
