@@ -1,0 +1,14 @@
+1) Armazenar dados.
+
+2)
+Nome: Caracter 
+CPF:Inteiro
+RG:Inteiro
+Altura:Real
+Endereço:Caracter
+
+3)
+CPF <- 12345678900
+RG <- 9517530
+Altura <- 1,78
+Endereço <- Rua A, 380 – Centro – Recife/PE
