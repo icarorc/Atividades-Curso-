@@ -1,0 +1,12 @@
+import time
+
+tempoInicial=int(input("Começar por quanto ?"))
+
+
+print("Contagem regressiva ...")
+
+for i in range(tempoInicial,0,-1):
+    print(i)
+    time.sleep(1)
+
+print("BOOOM!")
