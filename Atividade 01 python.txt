@@ -6,7 +6,7 @@ faltas=10
 media=(nota1 + nota2)/2
 
 if(media < 7) or (faltas > 3):
-    print("O aluno "+nomeAluno+" esta reprovado")
+    print("O aluno "+nomeAluno+" esta Reprovado")
 else:
     print("O aluno "+nomeAluno+" esta Aprovado")
     
