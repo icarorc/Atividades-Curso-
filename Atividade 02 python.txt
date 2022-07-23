@@ -1,0 +1,14 @@
+quantRodas = 5
+quantPessoas = 9
+quantPeso = 6500
+
+if(quantRodas == 2) or (quantRodas == 3):
+    print("Categoria A")
+elif(quantRodas == 4) and (quantPessoas <= 8) and (quantPeso <= 3500):
+    print("Categoria B")
+elif(quantRodas >=4) and (quantPeso >= 3500) and(quantPeso <=6000):
+    print("Categoria C")
+elif(quantRodas >=4) and (quantPessoas > 8):
+    print("Categoria D")
+elif(quantRodas >=4) and (quantPeso > 6000):
+    print("Categoria E")
