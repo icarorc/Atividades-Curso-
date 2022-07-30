@@ -1,0 +1,27 @@
+def calculadora(n1,n2,n3):
+    if  n3 == 1:
+        soma = n1 + n2
+        return print(f"{n1} + {n2} = {soma}")
+    elif n3 == 2:
+        sub  = n1 - n2
+        return print(f"{n1} - {n2} = {sub}")
+    elif n3 == 3:
+        mult = n1 * n2
+        return print(f"{n1} X {n2} = {mult}")
+    elif n3 == 4:
+        div  = n1 / n2
+        return print(f"{n1} / {n2} ={div}")
+
+
+print("[1] Soma")
+print("[2] Subtração")
+print("[3] Multiplicação")
+print("[4] Divisão")
+retorno =int(input("Qual operação deseja fazer? digite o numero correspondente: "))
+if retorno > 4:
+    print(0)
+else:
+    print("Vamos Lá....")
+    num1 = int(input("Digite o primeiro numero "))
+    num2 = int(input("Digite o segundo numero "))
+    print(calculadora(num1,num2,retorno))
