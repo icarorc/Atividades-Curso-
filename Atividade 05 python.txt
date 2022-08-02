@@ -1,0 +1,33 @@
+def calculadora(n1,n2,op):
+    if op == 1:
+        soma= n1 + n2
+        return print(f"{n1} + {n2} = {soma}")
+    elif op == 2:
+        sub = n1 - n2
+        return print(f"{n1} - {n2} ={sub}")
+    elif op == 3:
+        mult = n1 * n2
+        return print(f"{n1} * {n2} = {mult}")
+    elif op == 4:
+        div = n1 / n2
+        return print(f"{n1} / {n2} = {div}")
+
+
+
+while True:
+    print("=========Menu===========")
+    print("[1] Soma")
+    print("[2] Subtração")
+    print("[3] Multiplicação")
+    print("[4] Divisão")
+    print("[0] Sair")
+    operacao = int(input("Digite um dos valores acima para realizar a operação: "))
+    if operacao == 0:
+        break
+    elif operacao >= 1 and operacao <= 4:
+        num1=int(input("Digite o primeiro valor: "))
+        num2=int(input("Digite o segundo valor: "))
+        print(calculadora(num1,num2,operacao))
+    elif operacao > 4:
+        print("Operação invalida")
+
