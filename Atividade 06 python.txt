@@ -1,0 +1,11 @@
+while True:
+    try:
+        nome = str(input("Qual o seu nome ? "))
+        ano  = int(input("Nasceu em que ano ?"))
+        if ano >= 1922 and ano <=2021:
+            print(f"Olá {nome} você tem {2022 - ano} anos! ")
+            break
+        else:
+            print("Ano invalido")
+    except:
+        print("Erro!! tente novamente")
