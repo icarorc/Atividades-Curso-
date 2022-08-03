@@ -1,0 +1,48 @@
+candidatoX = 889
+candidatoY = 847
+candidatoZ = 515
+branco = 0
+votosX=0
+votosY=0
+votosZ=0
+nulos=0
+while True:
+    try:
+        print("======= Votação =======")
+        print("[889] Para Candidato X ")
+        print("[847] Para Candidato Y ")
+        print("[515] Para Candidato Z ")
+        print("[0] Para Branco")
+        votos = int(input("Em quem irá votar ? "))
+        if votos == candidatoX:
+            votosX+=1
+        elif votos == candidatoY:
+            votosY+=1
+        elif votos == candidatoZ:
+            votosZ+=1
+        else:
+            nulos+=1
+    except:
+        print("Erro! tente novamente")
+
+    confirma = input("Quer continuar?[S/N] ")
+    if confirma == "N":
+        break
+    else:
+        print("Voto computado!")
+
+
+
+if votosX > votosZ and votosX > votosY:
+    print(f"O vencedor foi o candidato X com {votosX} votos! ")
+    print(f"O candidato Y teve {votosY} votos eo candidato Z teve {votosZ} votos ")
+elif votosZ > votosX and votosZ > votosY:
+    print(f"O vencedor foi o candidato Z com {votosZ} votos! ")
+    print(f"O candidato Y teve {votosY} votos eo candidato X teve {votosX} votos ")
+else:
+    print(f"O vencedor foi o candidato Y com {votosY} votos! ")
+    print(f"O candidato X teve {votosX} votos eo candidato Z teve {votosZ} votos ")
+print(f"Tiveram {nulos} votos brancos/nulos ")
+
+
+
