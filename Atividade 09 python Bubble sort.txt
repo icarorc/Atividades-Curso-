@@ -1,0 +1,7 @@
+bu= [24, 26, 21, 27, 22, 10, 7, 55, 12, 5]
+for j in range(len(bu) - 1):
+    for i in range(len(bu) - 1):
+        if bu[i] > bu[i+1]:
+            bu[i], bu[i+1] = bu[i+1], bu[i]
+
+print(bu)
