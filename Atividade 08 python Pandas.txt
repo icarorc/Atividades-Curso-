@@ -1,0 +1,16 @@
+import pandas as pd
+tabela = pd.read_csv("teste.csv", sep=";")
+media = (tabela["Nota_1"] + tabela["Nota_2"]) /2
+tabela["Media"] = media
+tabela.loc[(tabela["Media"] >= 7) & (tabela["Faltas"] < 5), "Situacao"] = "Aprovado"
+tabela.loc[(tabela["Media"] < 7) & (tabela["Faltas"] > 5), "Situacao"] = "Reprovado"
+
+maiorFalta  = tabela["Faltas"].max()
+mediaGeral = (tabela["Media"].sum())/3
+maiorMedia = tabela["Media"].max()
+
+print(tabela.head())
+print("")
+print(f"O maior numero de faltas foi {maiorFalta}")
+print(f"A media geral é {mediaGeral}")
+print(f"A maior media da turma foi {maiorMedia}")
