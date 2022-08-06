@@ -1,0 +1,8 @@
+int main()
+{
+    int ptr[20]; 
+    ptr = (int *) malloc(20 * sizeof (int));
+    ptr = (int *) realloc(ptr , 20 * sizeof (int)); 
+    free(): void free(void *ptr); 
+    
+}
