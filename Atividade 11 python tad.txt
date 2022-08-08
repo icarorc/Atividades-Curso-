@@ -1,0 +1,33 @@
+class complexo:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+
+    def imprimeresulsom(self):
+        resultS = self.num1 + self.num2
+        print("O resultado da adição é :", resultS)
+    def imprimeresulsub(self):
+        resultSub = self.num1 - self.num2
+        print("O resultado da subtração é :", resultSub)
+    def imprimeresuldivi(self):
+        resultDiv = self.num1 / self.num2
+        print("O resultado da divisão é :", resultDiv)
+    def imprimeresulMul(self):
+        resulmult = self.num1 * self.num2
+        print("O resultado da multiplicação é :", resulmult)
+    def imprimeReal1(self):
+        resultNum1 = self.num1
+        resultNum2 = self.num2
+        print(f"A parte real do primeiro numero é {resultNum1.real} ea parte imaginaria é {resultNum1.imag}")
+        print(f"A parte real do segundo numero é {resultNum2.real} ea parte imaginaria é {resultNum2.imag}")
+
+objeto = complexo(complex(1, 2), complex(3, 4))
+print(objeto.imprimeresulsom())
+print(objeto.imprimeresulsub())
+print(objeto.imprimeresuldivi())
+print(objeto.imprimeresulMul())
+print(objeto.imprimeReal1())
+
+
+
