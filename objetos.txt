@@ -1,0 +1,43 @@
+objeto:Celular
+atributos
+modelo: mi 9t
+cor: azul
+polegadas: 6
+ligado:negativo
+motodos:
+desbloquear
+fazer ligação
+enviar mensagem
+
+objeto:Caderno
+atributos
+modelo: Surfista
+cor: preto
+tamanho: 20cm x 20cm
+metodos:
+abrir
+fechar
+escrever
+
+objeto: Dança
+atributos
+tipo: tango
+numeroPessoas: 2
+preRequisitos: coreografia
+metodos:
+treinar
+hitmoPassos
+dançar
+
+objeto: transação bancaria
+atributos
+tipo: transferencia
+moeda: real
+meio: digital
+metodos:
+valor
+conta
+comprovante
+
+
+
