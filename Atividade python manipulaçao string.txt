@@ -1,0 +1,7 @@
+frase = "Curso Softex Front"
+print(frase[1:10])
+print(frase.count("o"))
+print(frase.upper())
+print(len(frase))
+print(frase.replace("Front","Back"))
+print("Curso" in frase)
