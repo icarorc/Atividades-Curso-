@@ -1,0 +1,12 @@
+try:
+    a={}
+    print(a[1])
+except NameError as erro:
+    print("Erro de desenvolvedor.")
+except (IndexError, KeyError) as erro:
+    print("Erro de indice ou chave.")
+except Exception as erro:
+    print("Erro inesperado.")
+
+
+print("Bora continuar...")
