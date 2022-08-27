@@ -1,0 +1,17 @@
+h1{
+    background-color:burlywood;
+    text-align: center;
+    color:black;
+}
+
+body{
+    background:black;
+    color:bisque;
+}
+
+#resultado{
+    background:rgb(255, 0, 0);
+    width: 80px;
+    height: 20px;
+    font-size: 20;
+}
