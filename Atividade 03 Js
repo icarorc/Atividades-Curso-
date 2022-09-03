@@ -1,0 +1,5 @@
+idade tipo : Number
+nome  tipo : String
+fome  tipo : Boolean
+
+Fome pode ser tanto true para o caso de está com fome, quanto false para o caso de não está.
