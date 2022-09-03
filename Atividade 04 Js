@@ -1,0 +1,3 @@
+Prototype
+Esse padrão serve para criar objetos a partir de outros existentes, criando uma cópia do objeto e podendo adicionar mais atributos nele.
+No JavaScript a idéia de protótipos é muito forte, pois todo objeto em JS possui propriedades internas, que são chamados de Prototype que é uma referência para outro objeto; resumindo é a forma como o JS faz herança.
