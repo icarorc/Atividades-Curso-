@@ -1,0 +1,15 @@
+As seis regras de uma API REST (Representational State Transfer) são:
+
+Cliente-servidor: a arquitetura deve ser dividida em duas partes distintas, o cliente e o servidor, permitindo que as partes possam evoluir independentemente.
+
+Stateless: as requisições devem conter todas as informações necessárias para serem entendidas pelo servidor, não deve haver dependência de estado anterior.
+
+Cacheable: as respostas podem ser marcadas como cacheáveis ou não, permitindo que o cliente armazene em cache o resultado e o use em requisições futuras.
+
+Layered System: a arquitetura deve ser dividida em camadas, permitindo que cada camada seja substituída ou adicionada sem afetar as outras camadas.
+
+Code-on-demand (opcional): permite que o servidor envie código para o cliente para serem executados, como scripts JavaScript.
+
+uniform interface: deve existir uma interface única e padronizada entre o cliente e o servidor, como os verbos HTTP (GET, POST, PUT, DELETE) e os códigos de resposta HTTP (200, 201, 204, 400, 401, 404, etc.).
+
+Essas regras são fundamentais para que uma API possa ser considerada RESTful, e fornecem uma base para a arquitetura da API ser escalável, simples e fácil de usar.
