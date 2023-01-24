@@ -1,0 +1,15 @@
+Obter previsão do tempo para uma cidade específica:
+URL: https://api.openweathermap.org/data/2.5/weather?q={city}&appid={your_api_key}
+Método: GET
+Substitua {city} pelo nome da cidade desejada e {your_api_key} pela sua chave de API. Você pode obter uma chave de API gratuita no site https://openweathermap.org/api
+Exemplo: https://api.openweathermap.org/data/2.5/weather?q=São%20Paulo&appid=1234567890
+Obter cotação de uma moeda específica:
+URL: https://apilayer.com/exchange/live?source={base_currency}&currencies={target_currency}&access_key={your_api_key}
+Método: GET
+Substitua {base_currency} pela moeda base desejada, {target_currency} pela moeda desejada e {your_api_key} pela sua chave de API. Você pode obter uma chave de API gratuita no site https://apilayer.com/
+Exemplo: https://apilayer.com/exchange/live?source=USD&currencies=BRL&access_key=1234567890
+Obter informações sobre um filme específico:
+URL: http://www.omdbapi.com/?t={movie_name}&apikey={your_api_key}
+Método: GET
+Substitua {movie_name} pelo nome do filme desejado e {your_api_key} pela sua chave de API. Você pode obter uma chave de API gratuita no site http://www.omdbapi.com/
+Exemplo: http://www.omdbapi.com/?t=The%20Shawshank%20Redemption&apikey=1234567890
