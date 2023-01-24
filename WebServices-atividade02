@@ -1,0 +1,15 @@
+HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação utilizado para transferir dados na internet. Ele define regras para como as mensagens devem ser formatadas e transmitidas, e quais ações devem ser tomadas em resposta a uma determinada requisição.
+
+Os principais métodos HTTP são:
+
+GET - é utilizado para solicitar informações de um recurso específico. Por exemplo, ao fazer uma requisição GET para "www.exemplo.com/produtos", o servidor irá retornar uma lista de produtos disponíveis.
+
+POST - é utilizado para enviar dados para serem processados pelo recurso identificado pela URI. Por exemplo, ao fazer uma requisição POST para "www.exemplo.com/produtos" com dados de um novo produto, o servidor irá adicionar esse produto à lista de produtos.
+
+PUT - é utilizado para atualizar um recurso existente. Por exemplo, ao fazer uma requisição PUT para "www.exemplo.com/produtos/1" com dados atualizados de um produto, o servidor irá atualizar esse produto na lista de produtos.
+
+DELETE - é utilizado para excluir um recurso existente. Por exemplo, ao fazer uma requisição DELETE para "www.exemplo.com/produtos/1", o servidor irá excluir o produto com ID 1 da lista de produtos.
+
+Além desses métodos, existem outros como o PATCH e o OPTIONS, que possuem funcionalidades específicas.
+
+WSDL (Web Services Description Language) é um formato de arquivo utilizado para descrever serviços web. Ele define as operações disponíveis, os parâmetros de entrada e saída, e outros detalhes relacionados ao serviço. Ele é usado para permitir que diferentes aplicações possam se comunicar, independentemente da plataforma e linguagem de programação utilizadas. Ele é geralmente usado em conjunto com outros protocolos como SOAP e XML para definir e acessar serviços web.
