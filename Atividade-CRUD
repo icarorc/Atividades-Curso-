@@ -1,0 +1,28 @@
+As quatro operações de CRUD (Create, Read, Update, Delete) são comumente utilizadas em APIs REST para gerenciar recursos. Aqui estão exemplos de como essas operações podem ser implementadas para gerenciar um recurso "livro" em uma livraria:
+
+Create (Adicionar livro):
+Método: POST
+Rota: /books
+Corpo da requisição: { "name": "O Senhor dos Anéis", "author": "J.R.R. Tolkien", "isbn": "9780544003415" }
+Resposta: 201 (Created)
+
+Read (Obter livro):
+Método: GET
+Rota: /books/{id}
+Resposta: 200 (OK)
+Corpo da resposta: { "id": 1, "name": "O Senhor dos Anéis", "author": "J.R.R. Tolkien", "isbn": "9780544003415" }
+
+Update (Atualizar livro):
+Método: PUT
+Rota: /books/{id}
+Corpo da requisição: { "name": "O Senhor dos Anéis - Edição Revisada", "author": "J.R.R. Tolkien", "isbn": "9780544003415" }
+Resposta: 200 (OK)
+
+Delete (Excluir livro):
+Método: DELETE
+Rota: /books/{id}
+Resposta: 204 (No Content)
+
+Observe que os exemplos acima usam os verbos HTTP padrões para cada operação (POST para criação, GET para leitura, PUT para atualização e DELETE para exclusão) e rotas que seguem a convenção de recurso. Além disso, os códigos de resposta HTTP são usados para indicar o status da operação, como 201 (Created) para indicar que um recurso foi criado com sucesso.
+
+Esses exemplos são uma base para construir uma API RESTful, mas pode variar de acordo com a necessidade de cada projeto, e pode existir variações.
