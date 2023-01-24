@@ -1,0 +1,24 @@
+Crie uma nova Workspace no Insomnia e adicione os seguintes endpoints:
+GET /usuarios
+GET /usuarios/{id}
+POST /usuarios
+PUT /usuarios/{id}
+DELETE /usuarios/{id}
+GET /produtos
+GET /produtos/{id}
+POST /produtos
+PUT /produtos/{id}
+DELETE /produtos/{id}
+Configure as requisições GET para cada endpoint de usuários e produtos para retornar os dados dos usuários e produtos do banco de dados.
+
+Configure as requisições POST para cada endpoint de usuários e produtos para adicionar novos usuários e produtos ao banco de dados.
+
+Configure as requisições PUT para cada endpoint de usuários e produtos para atualizar os dados dos usuários e produtos no banco de dados.
+
+Configure as requisições DELETE para cada endpoint de usuários e produtos para excluir usuários e produtos do banco de dados.
+
+Para realizar um relacionamento entre os endpoints, você pode adicionar a seguinte rota:
+
+GET /usuarios/{id}/produtos
+Essa rota deve retornar todos os produtos relacionados a um usuário específico.
+Utilize as variáveis de ambiente para armazenar a url de acesso ao banco de dados e a chave de autenticação, para evitar expor essas informações no código.
