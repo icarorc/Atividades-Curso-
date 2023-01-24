@@ -1,0 +1,69 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const router = express.Router();
+const Aluno = require('./models/aluno');
+
+//Conectar ao banco de dados
+mongoose.connect('mongodb://localhost:27017/alunos', { useNewUrlParser: true, useUnifiedTopology: true });
+
+// Create (Adicionar aluno)
+router.post('/alunos', (req, res) => {
+    const aluno = new Aluno({
+        nome: req.body.nome,
+        email: req.body.email,
+        matricula: req.body.matricula
+    });
+
+    aluno.save((err) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.status(201).json(aluno);
+        }
+    });
+});
+
+// Read (Obter aluno)
+router.get('/alunos/:id', (req, res) => {
+    Aluno.findById(req.params.id, (err, aluno) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.status(200).json(aluno);
+        }
+    });
+});
+
+// Update (Atualizar aluno)
+router.put('/alunos/:id', (req, res) => {
+    Aluno.findById(req.params.id, (err, aluno) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            aluno.nome = req.body.nome;
+            aluno.email = req.body.email;
+            aluno.matricula = req.body.matricula;
+
+            aluno.save((err) => {
+                if (err) {
+                    res.status(500).send(err);
+                } else {
+                    res.status(200).json(aluno);
+                }
+            });
+        }
+    });
+});
+
+// Delete (Excluir aluno)
+router.delete('/alunos/:id', (req, res) => {
+    Aluno.remove({ _id: req.params.id }, (err) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.status(204).send('Aluno excluído com sucesso');
+        }
+    });
+});
+
+module.exports = router;
