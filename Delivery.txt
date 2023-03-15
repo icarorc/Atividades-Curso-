@@ -1,0 +1,16 @@
+Analisar os dados existentes: Verifique quantos usuários estão recebendo o questionário NPS, quantos estão abrindo e quantos estão respondendo. Isso ajudará a identificar a taxa de resposta e o número de usuários que não estão respondendo.
+
+Realizar pesquisas adicionais: A empresa pode conduzir pesquisas adicionais com seus clientes para entender o motivo pelo qual eles não estão respondendo ao questionário NPS. Isso pode ser feito por meio de pesquisas de mercado, grupos focais ou entrevistas individuais.
+
+Identificar as causas raiz: Analise os resultados das pesquisas e determine as principais causas pelas quais os usuários não estão respondendo. Algumas possíveis causas podem ser falta de incentivos, problemas técnicos ou confusão sobre como responder.
+
+Desenvolver soluções: Com base nas causas identificadas, a empresa pode desenvolver soluções para aumentar a taxa de resposta. Algumas possíveis soluções podem ser fornecer incentivos, melhorar o design do questionário para torná-lo mais fácil de responder ou enviar lembretes aos usuários que não responderam.
+
+Implementar as soluções: Após desenvolver as soluções, a empresa pode implementá-las e monitorar a taxa de resposta. É importante monitorar a taxa de resposta para garantir que as soluções estejam funcionando e para identificar a necessidade de ajustes adicionais.
+
+Consequências do problema:
+
+Falta de dados confiáveis: A falta de resposta pode resultar em falta de dados confiáveis para a empresa, dificultando a identificação de áreas que precisam ser melhoradas para atender às necessidades dos clientes.
+Falha em identificar áreas de melhoria: A falta de resposta pode resultar em falha na identificação de áreas que precisam ser melhoradas para atender às necessidades dos clientes.
+Falha em fidelizar clientes: A falta de dados confiáveis e a falha em identificar áreas de melhoria podem resultar em falha em fidelizar os clientes.
+Ao resolver esse problema, a empresa pode aumentar a taxa de resposta, melhorar a qualidade dos dados coletados, identificar áreas que precisam de melhoria e, finalmente, fidelizar mais clientes.
