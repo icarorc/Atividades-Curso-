@@ -1,0 +1,11 @@
+Para validar o protótipo desenvolvido pela equipe da EduDesign, algumas estratégias que podem ser utilizadas são:
+
+Entrevistas com os usuários: realizar entrevistas com os estudantes, professores e responsáveis para entender suas necessidades, expectativas e pontos de dor em relação ao gerenciamento de notas e comunicação escolar. Isso pode ajudar a identificar se o protótipo atende às necessidades e expectativas dos usuários.
+
+Testes de usabilidade: realizar testes de usabilidade com os usuários para entender como eles interagem com o aplicativo e identificar pontos que podem ser melhorados. Isso pode ajudar a equipe a ajustar a interface e a experiência do usuário para tornar o aplicativo mais fácil e intuitivo de usar.
+
+Avaliação de métricas: definir métricas de sucesso para a solução e avaliar se o protótipo está atendendo a essas métricas. Por exemplo, a métrica de sucesso para a comunicação escolar pode ser o número de pais que acessam o aplicativo regularmente. Isso pode ajudar a equipe a entender se a solução está sendo eficaz na resolução dos problemas identificados.
+
+Testes A/B: realizar testes A/B com grupos de usuários para comparar diferentes versões do aplicativo e identificar qual é a mais eficiente e agradável para os usuários. Isso pode ajudar a equipe a ajustar e melhorar a solução antes de lançá-la para todos os usuários.
+
+Workshops de cocriação: realizar workshops de cocriação com os usuários para obter feedback e ideias para aprimorar o aplicativo. Isso pode ajudar a equipe a entender como os usuários pensam e se envolvem com a solução e a incorporar as sugestões dos usuários no desenvolvimento do aplicativo.
