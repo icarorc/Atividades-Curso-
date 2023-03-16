@@ -1,0 +1,5 @@
+Considerando as premissas apresentadas, sugiro que a empresa utilize uma técnica de pesquisa qualitativa para coletar dados com o usuário. Dentre as técnicas que podem ser utilizadas, sugiro a realização de entrevistas individuais ou em grupo com potenciais usuários do produto.
+
+A escolha por uma técnica qualitativa se justifica pelo fato de que a empresa não realizou uma pesquisa com os usuários anteriormente, o que pode indicar uma falta de compreensão das necessidades e expectativas dos usuários em relação ao produto. Com uma técnica qualitativa, é possível coletar informações mais aprofundadas sobre as percepções, comportamentos e necessidades dos usuários em relação ao produto.
+
+As entrevistas individuais ou em grupo são recomendadas por permitirem que os usuários compartilhem suas opiniões e experiências com o produto de forma mais livre e detalhada. Além disso, a realização de entrevistas com potenciais usuários do produto permitirá que a empresa identifique as principais barreiras e oportunidades relacionadas à adoção do produto, o que pode ser muito valioso para o lançamento de uma versão final mais adequada às necessidades dos usuários.
