@@ -1,0 +1,7 @@
+Para o Projeto A, um produto completamente novo sem funcionalidades e elementos de design definidos, o artefato mais adequado seria o Sketch.
+
+O Sketch é um artefato de design inicial que permite esboçar rapidamente ideias para o layout do produto, sem se preocupar muito com detalhes como cores, tipografia, imagens etc. Isso permite que os designers tenham uma visão geral do produto e suas funcionalidades, e possam iterar rapidamente em várias opções de design antes de se aprofundar nos detalhes.
+
+Como o Projeto A é completamente novo e sem elementos de design definidos, é importante que os designers tenham a liberdade de experimentar várias opções de layout e fluxo de usuário, antes de se comprometer com um design específico. O Sketch permite essa flexibilidade, pois é rápido e fácil de iterar em ideias, sem a necessidade de se preocupar com a estética ou detalhes do produto.
+
+Depois de definir o layout básico e as funcionalidades do produto no Sketch, os designers podem então avançar para outros artefatos, como wireframes, mockups e protótipos, para refinar o design e testar a funcionalidade do produto em um nível mais detalhado.
