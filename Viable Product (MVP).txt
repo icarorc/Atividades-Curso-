@@ -1,0 +1,33 @@
+O Minimum Viable Product (MVP) e o protótipo são duas abordagens diferentes para o design e desenvolvimento de novos produtos. As principais diferenças entre elas são:
+
+Propósito: O MVP é uma versão mínima de um produto que é lançada para o mercado com o objetivo de validar a ideia e o conceito do produto. Já o protótipo é uma versão preliminar do produto que é criada para testar e experimentar a funcionalidade, o design e outras características do produto.
+
+Funcionalidade: O MVP tem apenas as funcionalidades essenciais do produto e geralmente é criado com um orçamento limitado. Já o protótipo pode ter mais funcionalidades do que o MVP e geralmente é criado para testar diferentes ideias e conceitos.
+
+Público-alvo: O MVP é direcionado para um público maior, enquanto o protótipo é direcionado para um público limitado, geralmente composto por especialistas e usuários beta.
+
+Tempo de desenvolvimento: O MVP pode ser desenvolvido rapidamente em comparação com o protótipo, que pode levar mais tempo para ser criado e testado.
+
+Vantagens e desvantagens de cada abordagem:
+
+MVP:
+
+Vantagens:
+Permite testar rapidamente uma ideia de produto no mercado.
+Ajuda a validar a aceitação do produto pelo público-alvo.
+Pode ser desenvolvido com um orçamento limitado.
+Desvantagens:
+Pode ter uma funcionalidade limitada.
+Pode ser difícil de encontrar o equilíbrio certo entre o que deve e o que não deve ser incluído no MVP.
+Pode ser difícil de avaliar as necessidades dos usuários com base em uma versão mínima do produto.
+Protótipo:
+
+Vantagens:
+Ajuda a testar e experimentar diferentes conceitos e ideias.
+Permite que os designers e desenvolvedores testem diferentes soluções de design e funcionalidade.
+Ajuda a avaliar as necessidades e expectativas dos usuários antes do lançamento do produto final.
+Desvantagens:
+Pode levar mais tempo e recursos para ser criado.
+Pode ser caro e difícil de criar um protótipo funcional.
+Pode ter um público limitado, o que pode não representar a diversidade de necessidades e expectativas dos usuários.
+Em resumo, o MVP é uma abordagem mais ágil e direcionada para testar rapidamente uma ideia de produto no mercado, enquanto o protótipo é uma abordagem mais experimental e focada em testar diferentes conceitos e soluções de design e funcionalidade. A escolha entre as duas abordagens depende dos objetivos e das necessidades do projeto.
