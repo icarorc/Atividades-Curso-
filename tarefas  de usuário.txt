@@ -1,0 +1,5 @@
+Uma tarefa que um usuário pode realizar para testar um aplicativo é fazer uma compra fictícia. Para analisar o comportamento do usuário, vamos considerar o elemento "eficiência de uso".
+
+Durante a realização da tarefa de compra, é possível observar se o usuário consegue encontrar facilmente os produtos desejados, se o processo de checkout é intuitivo e se não há obstáculos ou confusões que possam desacelerar ou impedir o processo de compra.
+
+Se o usuário consegue concluir a tarefa de compra rapidamente e sem dificuldades, isso indica uma boa eficiência de uso da interface. Caso contrário, se o usuário enfrenta obstáculos ou fica confuso com o processo de compra, isso pode indicar problemas na usabilidade da interface, o que pode levar à insatisfação do usuário e até mesmo à desistência da compra.
